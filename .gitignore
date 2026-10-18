@@ -1,0 +1,15 @@
+# Build artifacts - too large for GitHub (270 MB each, limit is 100 MB)
+# Distribute these via GitHub Releases instead
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# App runtime data / backups
+*.bak
+
+# Tooling
+.qoder/
